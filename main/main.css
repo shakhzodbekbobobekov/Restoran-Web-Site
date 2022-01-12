@@ -160,24 +160,30 @@ body {
     padding: 2rem;
 }
 
-.ads-text h3 {
+.ads-title {
     margin: 0;
     font-size: 32px;
 }
 
-.ads-text p {
+.ads-about {
     margin: 20px 0;
     font-size: 20px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em black, 0 0 0.2em black;
 }
 
-.ads-text a {
+.ads-link {
+    display: inline-block;
     text-decoration: none;
     background-color: #ffc600;
     padding: 8px 12px;
     font-size: 20px;
     color: #000;
     font-weight: 500;
+    margin-top: 15px;
+}
+
+.ads-link:hover{
+    opacity: 0.8;
 }
 
 /* gallery */
